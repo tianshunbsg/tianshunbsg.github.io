@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<头>
+<meta charset="utf-8" />
+<标题>秀</标题>
+<元数据名称=视口内容="宽度=设备宽度，连续刻度=1">
+<link href="https://s0.pstatp.com/cdn/expire-1-M/twitter-bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+<link href="https://s3.pstatp.com/cdn/expire-1-M/jquery-confirm/3.3.4/jquery-confirm.min.css" type="text/css" rel="stylesheet" />
+<link href="https://s2.pstatp.com/cdn/expire-1-M/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="/media/css/style_new.css？t=1643945509578"/>
+</头>
+<身体>
+
+
+<!-- 走马灯 -->
+<div style='font-size：13px;font-weight：400;margin-top：5px;' class="marquee visible-lg">
+<p id="noticePosition"></p>
+</迪夫>
+<div class='play-box' id='play-box'>
+<div style='padding：5px 10px;'>
+<!--电脑端 -->
+<div class="hidden-xs" style="position：relative;">
+
+<div class="navbar-form navbar-form-sm" role="search">
+<div class="form-inline search-ctrl-sm search-box">
+<input type="text" onkeypress="enterSearch（this）" 占位符="搜点什么呗..."name="searchInput" value="" maxlength="50" autocomplete="off" baidusug="2">
+<a class="search-btn-handler" name="searchJumpButton"><i class="fa fa-search"></i></a>
+</迪夫>
+</迪夫>
+<div style='font-size：13px;font-weight：bold;margin-top：5px;'>
+<b>「记得CTRL+D保存收藏哟，爱你从不迷路...」</b>
+<a style="color：red;" href="https://greasyfork.org/zh-CN/scripts/390952" target="_blank"><b>注意注意！</b>用脚本配合本VIP解析，使用更加方便快捷哟！</a>
+</迪夫>
+<div style="高度：100%;最小宽度：200px;位置：绝对;顶部：0px;右：0px;文本对齐：右;光标：指针;">
+<一个 href="https://docs.qq.com/doc/DRmF6d3JYWExiVk5j" target="_blank"><img src="https://cdn.jsdelivr.net/gh/pizcat/static@master/vip_url_ad.JPG" height="100%"/></a>
+</迪夫>
+</迪夫>
+<!-- 移动端 -->
+<div class="visible-xs">
+
+<div class="navbar-form navbar-form-sm" role="search">
+<div class="form-inline search-ctrl-sm search-box">
+<input type="text" onkeypress="enterSearch（this）" 占位符="搜点什么呗..."name="searchInput" value="" maxlength="50" autocomplete="off" baidusug="2">
+<a class="search-btn-handler" name="searchJumpButton"><i class="fa fa-search"></i></a>
+</迪夫>
+</迪夫>
+<div style='font-size：13px;'><b>「记得CTRL+D保存收藏哟，爱你从不迷路...」</b>&nbsp;&nbsp;</div>
+</迪夫>
+</迪夫>
+
+
+
+
+
+
+
+<iframe id="palyer-iframe" src="https://vip.parwix.com:4433/player/?url=https://www.iqiyi.com/v_19rrk3rbgo.html?list=19rr98yn4i" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="true" allowtransparency="true" name='jx_play' ></iframe>
+
+<div class="operation">
+<!-- 移动端显示 -->
+<div class="visible-xs mobile-input">
+<输入类型="text" 值="https://www.iqiyi.com/v_19rrk3rbgo.html?list=19rr98yn4i" id="film-play-url-mobile" class="form-control text-control" aria-label="Text input with segmented button 下拉列表" 占位符="☆ 请输入爱奇艺、腾讯视频、优酷等视频播放链接"/>
+</迪夫>
+<div class="input-group">
+<!-- PC端显示 -->
+<输入类型="text" 值="https://www.iqiyi.com/v_19rrk3rbgo.html?list=19rr98yn4i" id="film-play-url" class="hidden-xs form-control text-control" aria-label="Text input with segmented button 下拉列表" 占位符="☆ 请输入爱奇艺、腾讯视频、优酷等视频播放链接"/>
+<div class="input-group-addon">
+<select class="input-group select-control text-control" id="link-choice">
+
+<选项值="https://vip.parwix.com:4433/player/?url="已选择">
+综合/B站1
+</选项>
+
+<选项值="https://jsap.attakids.com/?url=">
+									高速接口
+								</option>
+
+								<option value="https://z1.m1907.cn/?jx=" >
+									纯净/B站
+								</option>
+
+								<option value="https://okjx.cc/?url=" >
+									OK解析
+								</option>
+
+								<option value="https://www.yemu.xyz/?url=" >
+									夜幕
+								</option>
+
+								<option value="https://api.leduotv.com/wp-api/ifr.php?isDp=1&vid=" >
+									乐多资源
+								</option>
+
+								<option value="https://jx.xmflv.com/?url=" >
+									虾米
+								</option>
+
+								<option value="https://jx.m3u8.tv/jiexi/?url=" >
+									M3U8.TV
+								</option>
+
+								<option value="https://jx.blbo.cc:4433/?url=" >
+									人人迷
+								</option>
+
+								<option value="https://jx.blbo.cc:4433/?url=" >
+									全民
+								</option>
+
+								<option value="https://jx.mmkv.cn/tv.php?url=" >
+									七哥
+								</option>
+
+								<option value="https://api.qianqi.net/vip/?url=" >
+									冰豆
+								</option>
+
+								<option value="https://123.1dior.cn/?url=" >
+									迪奥
+								</option>
+
+								<option value="https://www.ckplayer.vip/jiexi/?url=" >
+									CK
+								</option>
+
+								<option value="https://api.u1o.net/?url=" >
+									游艺
+								</option>
+
+								<option value="https://lecurl.cn/?url=" >
+									LE
+								</option>
+
+								<option value="https://www.ckmov.vip/api.php?url=" >
+									ckmov
+								</option>
+
+								<option value="https://ckmov.ccyjjd.com/ckmov/?url=" >
+									ccyjjd
+								</option>
+
+								<option value="https://jx.aidouer.net/?url=" >
+									爱豆
+								</option>
+
+								<option value="https://www.ckmov.com/?url=" >
+									诺诺
+								</option>
+
+								<option value="https://www.h8jx.com/jiexi.php?url=" >
+									H8
+								</option>
+
+								<option value="https://vip.bljiex.com/?v=" >
+									BL
+								</option>
+
+								<option value="https://api.jiexi.la/?url=" >
+									解析la
+								</option>
+
+								<option value="https://jiexi.janan.net/jiexi/?url=" >
+									MUTV
+								</option>
+
+								<option value="https://www.mtosz.com/m3u8.php?url=" >
+									MAO
+								</option>
+
+								<option value="https://vip.laobandq.com/jiexi.php?url=" >
+									老板
+								</option>
+
+								<option value="https://www.pangujiexi.cc/jiexi.php?url=" >
+									盘古
+								</option>
+
+								<option value="https://www.gai4.com/?url=" >
+									盖世
+								</option>
+
+								<option value="https://www.kpezp.cn/jlexi.php?url=" >
+									小蒋
+								</option>
+
+								<option value="https://jiexi.us/?url=" >
+									YiTV
+								</option>
+
+								<option value="http://60jx.com/?url=" >
+									星空
+								</option>
+
+								<option value="https://go.yh0523.cn/y.cy?url=" >
+									0523
+								</option>
+
+								<option value="https://www.1717yun.com/jx/ty.php?url=" >
+									17云
+								</option>
+
+								<option value="https://jx.4kdv.com/?url=" >
+									4K
+								</option>
+
+								<option value="https://jx.yparse.com/index.php?url=" >
+									云析
+								</option>
+
+								<option value="https://www.8090g.cn/?url=" >
+									8090
+								</option>
+
+								<option value="https://api.jhdyw.vip/?url=" >
+									江湖
+								</option>
+
+								<option value="https://www.nxflv.com/?url=" >
+									诺讯
+								</option>
+
+								<option value="https://www.playm3u8.cn/jiexi.php?url=" >
+									PM
+								</option>
+
+								<option value="https://qimihe.com/?url=" >
+									奇米
+								</option>
+
+								<option value="https://jx.ap2p.cn/?url=" >
+									思云
+								</option>
+
+								<option value="https://jx.dj6u.com/?url=" >
+									听乐
+</选项>
+
+<选项值="https://jiexi.t7g.cn/?url=">
+aijx
+</选项>
+
+<选项值="https://vip.52jiexi.top/?url=">
+52
+</选项>
+
+<选项值="https://www.myxin.top/jx/api/?url=">
+黑米
+</选项>
+
+<选项值="https://api.lhh.la/vip/?url=">
+豪华啦
+</选项>
+
+<选项值="https://jx.mw0.cc/?url=">
+凉城
+</选项>
+
+<选项值="https://www.33tn.cn/?url=">
+136
+</选项>
+
+<选项值="https://jx.000180.top/jx/?url=">
+180
+</选项>
+
+<选项值="https://www.administratorw.com/video.php?url=">
+无名
+</选项>
+
+<选项值="https://jiexi.380k.com/?url=">
+黑云
+</选项>
+
+<选项值="https://jx.youyitv.com/?url=">
+九八
+</选项>
+
+</选择>
+</迪夫>
+<div class="input-group-btn">
+<button type="button" class="btn btn-default btn-play" title="点击开始解析并开始播放" id="play-btn">解析播放</button>
+</迪夫>
+</迪夫>
+<div style="width：100%;margin：10px 0;display：block;" id="infoStreamAd"></div>
+<div style="width：100%;margin：10px 0;display：block;" id="topBaiDuHandler"></div><!-- 广告 -->
+<div class="player-url-tips">
+<div>该网页使用iframe（<a href="https://www.w3school.com.cn/html/html_iframe.asp" rel="noreferrer nofollow" target="_blank">什么是iframe？</a>）嵌套网页播放，嵌套网页链接如下：</div>
+<div><b>当前播放网页链接：</b><a id="current-play-url" href="https://vip.parwix.com:4433/player/?url=https://www.iqiyi.com/v_19rrk3rbgo.html?list=19rr98yn4i" rel="noreferrer nofollow" target="_blank">https://vip.parwix.com:4433/player/?url=https://www.iqiyi.com/v_19rrk3rbgo.html?list=19rr98yn4i</a>，（如有侵权请联系该链接站长处理，感谢配合！）</div>
+<div><b>注</b>：本站提供的播放接口均收集自网络，<b>本站只提供web页面服务，并不提供影片资源存储，也不参与录制、上传。</b>本站只能用于学习交流，切勿用于商业用途，否则后果自负！</div>
+<div><b>主流视频播放平台：</b>
+<a href="https://www.iqiyi.com/" rel="noreferrer nofollow" target="_blank">爱奇艺<a>、
+<a href="https://v.qq.com/" rel="noreferrer nofollow" target="_blank">腾讯视频<a>、
+<a href="https://www.youku.com/" rel="noreferrer nofollow" target="_blank">优酷<a>、
+						<a href="https://www.mgtv.com/" rel="noreferrer nofollow" target="_blank">芒果TV<a>、
+						<a href="http://www.le.com/" rel="noreferrer nofollow" target="_blank">乐视<a>、
+						<a href="https://www.bilibili.com/" rel="noreferrer nofollow" target="_blank">bilibili<a>、
+						<a href="https://www.acfun.cn/" rel="noreferrer nofollow" target="_blank">acfun<a>、
+						<a href="https://www.youtube.com/" rel="noreferrer nofollow" target="_blank">youtube<a>等等
+					</div>
+				</div>
+			</div>
+		</div>
+	<script src="https://s2.pstatp.com/cdn/expire-1-M/jquery/2.2.1/jquery.min.js" type="application/javascript"></script>
+	<script src="https://s2.pstatp.com/cdn/expire-1-M/twitter-bootstrap/3.3.7/js/bootstrap.min.js" type="application/javascript"></script>
+	<script src="https://s2.pstatp.com/cdn/expire-1-M/jquery.qrcode/1.0/jquery.qrcode.min.js" type="application/javascript"></script>
+	<script src="https://s3.pstatp.com/cdn/expire-1-M/jquery-confirm/3.3.4/jquery-confirm.min.js" type="application/javascript"></script>
+	<script src="https://s1.pstatp.com/cdn/expire-1-M/jquery-cookie/1.4.1/jquery.cookie.min.js" type="application/javascript"></script>
+	<script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/jQuery.Marquee/1.5.0/jquery.marquee.min.js"></script>
+	<script src="/media/js/vip_analysis_common.js?t=1643945509578"></script>
+	<script src="/media/js/vip_analysis.js?t=1643945509578"></script>
+	<script src="/media/js/left_qrcode.js?t=1643945509578"></script>
+	<script src="/media/js/info_stream.js?t=1643945509578"></script>
+
+
+
+<script src="https://qzp-1251739678.cos.ap-chengdu.myqcloud.com/ad/js/baidu_ad.js"></script>
+
+
+
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G26YSZGDCZ"></script>
+<脚本>
+window.dataLayer = window.dataLayer ||[];
+function gtag（）{dataLayer.push（arguments）;}
+gtag（'js'， new Date（））;
+gtag（'config'， 'G-G26YSZGDCZ'）;
+</脚本>
+
+</身体>
