@@ -1,6 +1,6 @@
 hallo i am debang wang welcome here
 my website is tianshunbsg.github.io
-if you want make friend with me you can go iamwdb.xyz/me
+if you want make friend with me you can go tianshunbsg.github.io/me
 or write mail for me tianshunbsg@126.com
 look forward to your mail
 bye
