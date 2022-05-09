@@ -493,7 +493,7 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-image: url("https://www.hualigs.cn/image/627644c75fe02.jpg");
+			background-image: url("https://i0.hdslb.com/bfs/album/8bff8260bd1eaa89edfbab15bd653bfd12a074fb.jpg");
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -892,7 +892,7 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("https://i.ibb.co/PzfSrKw/wallhaven-285e6x.png");
+			background-image: url("https://i0.hdslb.com/bfs/album/8bff8260bd1eaa89edfbab15bd653bfd12a074fb.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1256,7 +1256,7 @@
 					height: 2.5rem;
 					border-radius: 100%;
 					background-position: center;
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='https://www.hualigs.cn/image/627644c75fe02.jpg' xmlns:xlink='https://www.hualigs.cn/image/627644c75fe02.jpg' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='https://i0.hdslb.com/bfs/album/8bff8260bd1eaa89edfbab15bd653bfd12a074fb.jpg' xmlns:xlink='https://www.hualigs.cn/image/627644c75fe02.jpg' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
 					background-size: 20px 20px;
 					background-repeat: no-repeat;
 				}
