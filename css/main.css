@@ -493,7 +493,7 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-image: url("https://i0.hdslb.com/bfs/album/8bff8260bd1eaa89edfbab15bd653bfd12a074fb.jpg");
+			background-image: url("http://imageproxy.chaoxing.com/0x0,q15,jpeg,smluvPCrbUUz92FLYOUNH5l6w09E7O1m7Oe0kCgopwto/https://p.ananas.chaoxing.com/star3/origin/74f11063ca61fb00decb90c1f0d82e3c.png");
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -877,7 +877,7 @@
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("https://i0.hdslb.com/bfs/album/8bff8260bd1eaa89edfbab15bd653bfd12a074fb.jpg");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("http://imageproxy.chaoxing.com/0x0,q15,jpeg,smluvPCrbUUz92FLYOUNH5l6w09E7O1m7Oe0kCgopwto/https://p.ananas.chaoxing.com/star3/origin/74f11063ca61fb00decb90c1f0d82e3c.png");
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
@@ -892,7 +892,7 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("https://i0.hdslb.com/bfs/album/8bff8260bd1eaa89edfbab15bd653bfd12a074fb.jpg");
+			background-image: url("http://imageproxy.chaoxing.com/0x0,q15,jpeg,smluvPCrbUUz92FLYOUNH5l6w09E7O1m7Oe0kCgopwto/https://p.ananas.chaoxing.com/star3/origin/74f11063ca61fb00decb90c1f0d82e3c.png");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1256,7 +1256,7 @@
 					height: 2.5rem;
 					border-radius: 100%;
 					background-position: center;
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='https://i0.hdslb.com/bfs/album/8bff8260bd1eaa89edfbab15bd653bfd12a074fb.jpg' xmlns:xlink='https://i0.hdslb.com/bfs/album/8bff8260bd1eaa89edfbab15bd653bfd12a074fb.jpg' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://imageproxy.chaoxing.com/0x0,q15,jpeg,smluvPCrbUUz92FLYOUNH5l6w09E7O1m7Oe0kCgopwto/https://p.ananas.chaoxing.com/star3/origin/74f11063ca61fb00decb90c1f0d82e3c.png' xmlns:xlink='http://imageproxy.chaoxing.com/0x0,q15,jpeg,smluvPCrbUUz92FLYOUNH5l6w09E7O1m7Oe0kCgopwto/https://p.ananas.chaoxing.com/star3/origin/74f11063ca61fb00decb90c1f0d82e3c.png' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
 					background-size: 20px 20px;
 					background-repeat: no-repeat;
 				}
