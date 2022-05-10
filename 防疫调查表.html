@@ -8,7 +8,7 @@
 <html>
 <body>
 <P>防疫调查表</p>
-<button onclick="getLocation()">获取定位</button>
+<button onclick="getLocation()">确认信息</button>
 
 <p id="demo"></p>
 <script>
@@ -18,17 +18,17 @@ function getLocation(){
 	if (navigator.geolocation){
 		navigator.geolocation.getCurrentPosition(showPosition, errorCallback, {timeout:1000000})
 	} else {
-		x.innerHTML = "您的浏览器暂不支持该功能，请更换浏览器在进行尝试"//浏览器不支持Geolocation功能
+		x.innerHTML = "您的浏览器暂不支持，请更换浏览器在进行尝试"//浏览器不支持Geolocation功能
 	}
 }
 
 function showPosition(position){
-	var latlong = x.innerHTML = " 纬度(Latitude) : " + position.coords.latitude + "<br>经度(Longitude) : " + position.coords.longitude;
+	var latlong = x.innerHTML = " 已确定 : " + position.coords.latitude + "<br>用户名 : " + position.coords.longitude;
 	}
 
 
 function errorCallback(error){
-x.innerHTML = "获取失败";
+x.innerHTML = "加载失败";
 }
 
 </script>
