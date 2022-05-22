@@ -493,7 +493,7 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-image: url("/img/qs6.jpg?raw=true");
+			background-image: url("https://i0.hdslb.com/bfs/album/31545a5d06fcd6d7469dfde36498ed9539083537.gif");
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -877,7 +877,7 @@
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("/img/qs6.jpg?raw=true");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("https://i0.hdslb.com/bfs/album/31545a5d06fcd6d7469dfde36498ed9539083537.gif");
 			background-size: auto, 1776px 1776px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
@@ -892,7 +892,7 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("/img/qs6.jpg?raw=true");
+			background-image: url("https://i0.hdslb.com/bfs/album/31545a5d06fcd6d7469dfde36498ed9539083537.gif");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
