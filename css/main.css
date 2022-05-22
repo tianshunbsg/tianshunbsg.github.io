@@ -878,7 +878,7 @@
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("/img/qs6.jpg?raw=true");
-			background-size: auto, 256px 256px;
+			background-size: auto, 100% 100%;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
 			z-index: 2;
