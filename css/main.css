@@ -493,7 +493,7 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-image: url("http://imageproxy.chaoxing.com/0x0,q15,jpeg,s_wkwEN666cTSnuhKfci0IYOZmBK0-SdRMPCE5NjrtkU/https://p.ananas.chaoxing.com/star3/origin/1d9fccee6bf2a08e945e8f6ef37d072c.png");
+			background-image: url("https://cdn.jsdelivr.net/gh/hututu-tech/IMG-gongfeng@main/2022/05/25/628da6677ab86.jpg");
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -877,8 +877,8 @@
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("http://imageproxy.chaoxing.com/0x0,q15,jpeg,s_wkwEN666cTSnuhKfci0IYOZmBK0-SdRMPCE5NjrtkU/https://p.ananas.chaoxing.com/star3/origin/1d9fccee6bf2a08e945e8f6ef37d072c.png");
-			background-size: auto, 600px 300px;
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("https://cdn.jsdelivr.net/gh/hututu-tech/IMG-gongfeng@main/2022/05/25/628da6677ab86.jpg");
+			background-size: auto, 2000px 1500px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
 			z-index: 2;
@@ -892,7 +892,7 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("http://imageproxy.chaoxing.com/0x0,q15,jpeg,s_wkwEN666cTSnuhKfci0IYOZmBK0-SdRMPCE5NjrtkU/https://p.ananas.chaoxing.com/star3/origin/1d9fccee6bf2a08e945e8f6ef37d072c.png");
+			background-image: url("https://cdn.jsdelivr.net/gh/hututu-tech/IMG-gongfeng@main/2022/05/25/628da6677ab86.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1256,7 +1256,7 @@
 					height: 2.5rem;
 					border-radius: 100%;
 					background-position: center;
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://imageproxy.chaoxing.com/0x0,q15,jpeg,s_wkwEN666cTSnuhKfci0IYOZmBK0-SdRMPCE5NjrtkU/https://p.ananas.chaoxing.com/star3/origin/1d9fccee6bf2a08e945e8f6ef37d072c.png' xmlns:xlink='http://imageproxy.chaoxing.com/0x0,q15,jpeg,s_wkwEN666cTSnuhKfci0IYOZmBK0-SdRMPCE5NjrtkU/https://p.ananas.chaoxing.com/star3/origin/1d9fccee6bf2a08e945e8f6ef37d072c.png' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='https://cdn.jsdelivr.net/gh/hututu-tech/IMG-gongfeng@main/2022/05/25/628da6677ab86.jpg' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
 					background-size: 20px 20px;
 					background-repeat: no-repeat;
 				}
